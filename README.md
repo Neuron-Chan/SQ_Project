@@ -7,7 +7,7 @@
 | :---: | :---: |
 | Noah Toma | 100825559 |
 | Rolf-Jaden Sibal | |
-| Dmitri Rios-Nadeau | |
+| Dmitri Rios-Nadeau | 1007830206 |
 | Nathan Perez | 100754066 |
 | Logan Butler | |
 
