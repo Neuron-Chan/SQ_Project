@@ -14,7 +14,7 @@ public class Test
         //False = 12 hour format
     }
 
-    //Test the time format method with lowest bound for each format
+    //Test the 
     @Test
     public void testTimeFormat()
     {
