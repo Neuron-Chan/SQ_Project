@@ -14,7 +14,7 @@ public class Test
         //False = 12 hour format
     }
 
-    //Test the 
+    //Test to check if the time format is 24 hour
     @Test
     public void testTimeFormat()
     {
