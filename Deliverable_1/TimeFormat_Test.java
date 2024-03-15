@@ -8,8 +8,8 @@ public class Test
     @BeforeAll
     public void setUp() throws Exception
     {
-        TimeFormat format24 = new TimeFormat(true);
-        TimeFormat format12 = new TimeFormat(false);
+        Ticket format24 = new Ticket(true, new Booking());
+        Ticket format12 = new Ticket(false, new Booking());
         //True = 24 hour format
         //False = 12 hour format
     }
@@ -18,11 +18,11 @@ public class Test
     @Test
     public void testTimeFormat()
     {
-        assertEquals(true, format24.getTimeFormat(0000 % 100));//First digit
+        assertEquals(true, format24.getTimeFormat());
     }
     @Test
     public void testTimeFormat()
     {
-        assertEquals(false, format24.getTimeFormat(0000 / 100));//Second digit
+        assertEquals(false, format12.getTimeFormat());
     }
 }
